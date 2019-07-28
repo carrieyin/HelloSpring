@@ -1,5 +1,8 @@
 package com.ydd.study.demo;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class HelloWorld {
 	
 	public HelloWorld() {
