@@ -10,9 +10,9 @@ public class MainApp {
 		ApplicationContext context = 
 				new ClassPathXmlApplicationContext("beans.xml");
 		
-		HelloWorld obj = context.getBean("helloWorld",HelloWorld.class);
+		HelloWorldService service = context.getBean("helloWorldService",HelloWorldService.class);
 		
-		System.out.println(obj);
+		service.saveHello();
 	}
  
 }
