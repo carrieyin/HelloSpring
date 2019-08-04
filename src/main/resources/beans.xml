@@ -19,7 +19,7 @@
     	<property name="name" value="张三"></property>
     	<property name="age" value="12"></property>
     </bean> -->
-    <bean name="car2" class="com.ydd.study.demo.Car">
+    <bean name="car2" class="com.ydd.study.demo.entity.Car">
 	    <property name="name" value="布加迪"></property>
 	    <property name="color" value="黑色"></property>
     </bean>
