@@ -15,10 +15,13 @@
   	<!--  
   	<bean id="helloWorld" class="com.ydd.study.demo.HelloWorld" />
     -->
-    <bean id="user" name="user" class="com.ydd.study.demo.User" init-method="init">
+   <!--  <bean id="user" name="user" class="com.ydd.study.demo.User" init-method="init">
     	<property name="name" value="张三"></property>
     	<property name="age" value="12"></property>
+    </bean> -->
+    <bean name="car2" class="com.ydd.study.demo.Car">
+	    <property name="name" value="布加迪"></property>
+	    <property name="color" value="黑色"></property>
     </bean>
-    
     
 </beans>
