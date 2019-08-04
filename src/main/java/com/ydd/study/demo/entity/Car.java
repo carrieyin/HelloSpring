@@ -1,7 +1,4 @@
-package com.ydd.study.demo;
-
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
+package com.ydd.study.demo.entity;
 
 //@Component
 

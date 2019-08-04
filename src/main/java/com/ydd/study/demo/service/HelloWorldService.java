@@ -1,7 +1,10 @@
-package com.ydd.study.demo;
+package com.ydd.study.demo.service;
 
 import javax.annotation.Resource;
+
 import org.springframework.stereotype.Service;
+
+import com.ydd.study.demo.dao.HelloWorldDao;
 
 @Service
 public class HelloWorldService {

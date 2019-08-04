@@ -1,4 +1,4 @@
-package com.ydd.study.demo;
+package com.ydd.study.demo.dao;
 
 import lombok.extern.log4j.Log4j;
 import org.springframework.stereotype.Component;
