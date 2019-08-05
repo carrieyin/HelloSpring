@@ -1,5 +1,7 @@
 package com.ydd.study.demo.service;
 
+
+
 public class UserServiceImpl implements UserService {
 	@Override
 	public void save() {
