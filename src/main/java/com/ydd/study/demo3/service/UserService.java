@@ -1,4 +1,6 @@
-package com.ydd.study.demo.service;
+package com.ydd.study.demo3.service;
+
+import org.springframework.stereotype.Component;
 
 
 public interface UserService {

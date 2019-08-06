@@ -1,7 +1,8 @@
-package com.ydd.study.demo.service;
+package com.ydd.study.demo.service.impl;
 
-
-
+import org.springframework.stereotype.Service;
+import com.ydd.study.demo.service.UserService;
+@Service("userService")
 public class UserServiceImpl implements UserService {
 	@Override
 	public void save() {

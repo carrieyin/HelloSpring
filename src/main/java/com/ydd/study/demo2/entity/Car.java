@@ -1,4 +1,4 @@
-package com.ydd.study.demo.entity;
+package com.ydd.study.demo2.entity;
 
 //@Component
 
