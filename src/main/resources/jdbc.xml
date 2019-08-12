@@ -11,8 +11,10 @@
       http://www.springframework.org/schema/aop 
       http://www.springframework.org/schema/aop/spring-aop.xsd">
  
+ 	
     <context:property-placeholder location="classpath:db.properties"/>
  
+
  	<bean name="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
  		<!-- <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
  		<property name="jdbcUrl" value="jdbc:mysql:///test"></property>
