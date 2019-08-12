@@ -10,8 +10,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import com.ydd.study.springtx.Service.AccountService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:springtx.xml")
-public class jdbctxDemoTest {
+@ContextConfiguration("classpath:springtx1.xml")
+public class JdbctxDemoTest1 {
 	@Resource(name="accountService")
 	private AccountService as;
 	
